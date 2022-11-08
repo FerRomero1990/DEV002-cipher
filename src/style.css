@@ -1,26 +1,119 @@
-body {background: rgba(0, 0, 0, 0.24);}
-h1{position: center;
-    width: 441px;
-    height: 41px;
-    
+body#cesarInicio{
+    background-image: url(César_Inicio.jpeg);
+    background-size: cover}
+h1#tituloCentral{
+    color: #070000;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 37%;
     font-family: 'Inter';
     font-style: italic;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 39px;
-    text-align: center;
-    
-    color: #000000;}
-h3{position: center;
-    width: 653px;
-    height: 147px;
-    
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    
-    color: #000000;
+    font-size: 50px;
+    line-height: 29px;
+    text-shadow: #F5F5F5 0px 4px 4px;
     }
+h3#introduccion{
+    color: #020202;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    font-family: 'Inter';
+    font-style: italic;
+    }
+h3#fraseFinalPant1{
+    color: #020202;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    font-family: 'Inter';
+    font-style: italic;  
+}
+h4#botonPant2{
+    color: #080707;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 87%;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 30px;
+}
+body#pagCifrado{background-image: url(Paisaje_pagcifrado.jpeg);
+        background-size: cover}
+h1#descCifrarDesc{
+    color: #fdfbfb;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 40px;
+    line-height: 29px;
+    text-shadow: #F5F5F5 0px 4px 4px;
+}
+p#cajaDesc{
+    box-sizing: content-box;
+    width: 200%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+h3#cifDesp{
+    color: #fdfbfb;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 40px;
+    line-height: 29px;
+    text-shadow: #F5F5F5 0px 4px 4px;
+}
+p#cajaDesp{
+    box-sizing: content-box;
+    position: absolute;
+    top: 33%;
+    left: 43.5%;
+}
+h3#tuDescCif{
+    color: #fdfbfb;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 40px;
+    line-height: 29px;
+    text-shadow: #F5F5F5 0px 4px 4px;
+}
+p#cajaDescCif{
+    box-sizing: content-box;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+}
+button#cifrar{
+    position: absolute;
+    top: 65%;
+    left: 76%;
+}
+button#descifrar{
+    position: absolute;
+    top: 65%;
+    left: 82%;
+}
+p#fraseJulio{
+    color: #fdfbfb;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 20px;
+    line-height: 29px;
+    text-shadow: #F5F5F5 0px 4px 4px;
+}
+p#julioCesar{
+    color: #fdfbfb;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 20px;
+    line-height: 29px;
+    text-shadow: #F5F5F5 0px 4px 4px;
+}
