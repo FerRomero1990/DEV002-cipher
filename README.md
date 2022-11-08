@@ -12,14 +12,13 @@ A partir de esto se parte con la idea de que estas personas puedan compartir est
 A continuación, mostraré el desarrollo de una página web que permite cifrar y descifrar estos descubrimientos.
 Inicialmente comencé con un diseño de baja fidelidad en donde se plasma a groso modo la información que conformará la página web, así como un boceto de cómo se verá.
 
-[Imagen del proyecto de baja fidelidad]
+![boceto-1erpant](https://github.com/FerRomero1990/DEV002-cipher/blob/main/bocetobfpag1.jpeg)
+![boceto-2dapant](https://github.com/FerRomero1990/DEV002-cipher/blob/main/bocetobfpag2.jpeg)
 
 Seguidamente se traslada este boceto a una imagen de alta fidelidad, en este caso hice uso de figma para apoyarme en esta parte, este proceso permite ser más especifico con el diseño final del proyecto, se incluye un fondo se determinan tipos de fuente y distribución más específica del espacio teniendo en cuenta la información a consignar allí. Teniendo en cuenta la temática del proyecto decidí que trasmitiera seriedad esta razón explica los fondos y los colores, tamaños y tipos de fuente.
 
-[Imagen del proyecto de alta fidelidad]
+![bocetoaf-1erpant](https://github.com/FerRomero1990/DEV002-cipher/blob/main/ProyectoCipherPag1.png)
+![bocetoaf-2dapant](https://github.com/FerRomero1990/DEV002-cipher/blob/main/ProyectoCipherPag2.png)
 
 En el producto terminado podemos encontrar que el usuario inicial puede ingresar su descubrimiento en una caja de texto, posteriormente puede elegir la cantidad de desplazamientos que desea aplicar para su cifrado y finalmente una caja de texto en donde aparece su descubrimiento cifrado
 
-
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
