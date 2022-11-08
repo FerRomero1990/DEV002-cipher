@@ -15,15 +15,3 @@ document.getElementById("descifrar").addEventListener("click", function () {
     document.getElementById("descubrimientoCifrado").value = cipher.decode(texto, desplazamiento);
 });
 
-
-
-
-/*function cifrar2(texto, desplazamiento) {
-    if (!texto)
-        return "";
-    const abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    desplazamiento = (desplazamiento % 26 + 26) % 26
-    return texto.replace(/[A - Z]/ig, c => letras[(letras.indexOf(c) + desplazamiento) % 26]);
-}*/
-
-
