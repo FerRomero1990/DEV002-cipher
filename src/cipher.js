@@ -4,7 +4,7 @@ const cipher = {
         const abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
         desplazamiento = (desplazamiento % 26 + 26) % 26;
-    
+
         if (texto) {
             for (let i = 0; i < texto.length; i++) {
                 if (abc.indexOf(texto[i]) != -1) {
@@ -22,7 +22,7 @@ const cipher = {
         const abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
         desplazamiento = (desplazamiento % 26 - 26) % 26;
-    
+
         if (texto) {
             for (let i = 0; i < texto.length; i++) {
                 if (abc.indexOf(texto[i]) != -1) {
