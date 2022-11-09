@@ -5,6 +5,9 @@ const cipher = {
     
         desplazamiento = (desplazamiento % 26 + 26) % 26;
 
+        if (texto != texto)
+        throw TypeError("Escritura inválida", cipher.js, 8)
+
         if (texto) {
             for (let i = 0; i < texto.length; i++) {
                 if (abc.indexOf(texto[i]) != -1) {
