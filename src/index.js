@@ -4,13 +4,12 @@ document.getElementById("descubrimientoACifrar").addEventListener("keyup", funct
     this.value = this.value.toUpperCase();
 });
 document.getElementById("cifrar").addEventListener("click", function () {
-    let texto = document.getElementById("descubrimientoACifrar").value;
     let desplazamiento = document.getElementById("cifrasADesplazar").value;
-    document.getElementById("descubrimientoCifrado").value = cipher.encode(texto, desplazamiento);
+    let texto = document.getElementById("descubrimientoACifrar").value;
+    document.getElementById("descubrimientoCifrado").value = cipher.encode(desplazamiento, texto);
 });
 document.getElementById("descifrar").addEventListener("click", function () {
-    let texto = document.getElementById("descubrimientoACifrar").value;
     let desplazamiento = document.getElementById("cifrasADesplazar").value;
-    console.log(cipher.decode(texto, desplazamiento))
-    document.getElementById("descubrimientoCifrado").value = cipher.decode(texto, desplazamiento);
+    let texto = document.getElementById("descubrimientoACifrar").value;
+    document.getElementById("descubrimientoCifrado").value = cipher.decode(desplazamiento, texto);
 });
