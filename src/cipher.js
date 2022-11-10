@@ -11,15 +11,8 @@ const cipher = {
         let resultado = "";
         const abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
-        desplazamiento = (desplazamiento % 26 + 26) % 26;
+        desplazamiento = (desplazamiento % 26 + 26) % 26;      
 
-<<<<<<< HEAD
-        //if (texto()){
-          //  throw new TypeError('descubrimientoACifrar', cipher.js, 8)
-        //}
-
-=======
->>>>>>> pruebastests
         if (texto) {
             for (let i = 0; i < texto.length; i++) {
                 if (abc.indexOf(texto[i]) != -1) {
@@ -42,12 +35,6 @@ const cipher = {
     
         desplazamiento = (desplazamiento % 26 - 26) % 26;
 
-<<<<<<< HEAD
-        //if(texto()){
-        //    throw new TypeError('descubrimientoCifrado', cipher.js,30)
-        //}
-
-=======
         if (!desplazamiento ){
             throw new TypeError('Escribe tu desplazamiento')
           }
@@ -55,7 +42,6 @@ const cipher = {
               throw new TypeError('Escribe tu descubrimiento')
           }
       
->>>>>>> pruebastests
         if (texto) {
             for (let i = 0; i < texto.length; i++) {
                 if (abc.indexOf(texto[i]) != -1) {
