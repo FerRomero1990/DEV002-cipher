@@ -11,6 +11,5 @@ document.getElementById("cifrar").addEventListener("click", function () {
 document.getElementById("descifrar").addEventListener("click", function () {
     let texto = document.getElementById("descubrimientoACifrar").value;
     let desplazamiento = document.getElementById("cifrasADesplazar").value;
-    console.log(cipher.decode(texto, desplazamiento))
     document.getElementById("descubrimientoCifrado").value = cipher.decode(texto, desplazamiento);
 });
